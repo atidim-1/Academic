@@ -687,11 +687,10 @@
   };
 
   // שאלוני אמצע וסוף שנה — לכל השנתונים
-  const SURVEY_LINK = 'https://www.surveymonkey.com/r/RXDQLTM';
   Object.keys(REQUIREMENTS).forEach(sh=>{
     REQUIREMENTS[sh].push(
-      { month:3, title:'מילוי שאלון אמצע שנה', req:'נדרש מילוי השאלון', link: SURVEY_LINK },
-      { month:7, title:'מילוי שאלון סוף שנה', req:'נדרש מילוי השאלון', link: SURVEY_LINK }
+      { month:3, title:'מילוי שאלון אמצע שנה', req:'נדרש מילוי השאלון' },
+      { month:7, title:'מילוי שאלון סוף שנה', req:'נדרש מילוי השאלון' }
     );
   });
 
